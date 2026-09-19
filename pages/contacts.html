@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Стройсервис</title>
+    <meta name="description" content="Контакты строительной компании Стройсервис: телефон, адрес, email, форма обратной связи. Санкт-Петербург.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="../index.html" class="logo">
+            <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+            <span class="logo-text">Строй<span>сервис</span></span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="../index.html" class="nav-link">Главная</a>
+            <a href="objects.html" class="nav-link">Наши объекты</a>
+            <a href="team.html" class="nav-link">Наша команда</a>
+            <a href="contacts.html" class="nav-link active">Контакты</a>
+        </nav>
+        <div class="header-actions">
+            <a href="tel:+79210922165" class="header-phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" fill="currentColor"/></svg>
+                <span>+7 921 092-21-65</span>
+            </a>
+            <a href="contacts.html" class="btn btn-primary">Обсудить проект</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+        <a href="../index.html" class="mobile-link">Главная</a>
+        <a href="objects.html" class="mobile-link">Наши объекты</a>
+        <a href="team.html" class="mobile-link">Наша команда</a>
+        <a href="contacts.html" class="mobile-link active">Контакты</a>
+    </nav>
+    <div class="mobile-bottom">
+        <a href="tel:+79210922165" class="header-phone">+7 921 092-21-65</a>
+        <a href="contacts.html" class="btn btn-primary btn-block">Обсудить проект</a>
+    </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image:url('../img/hero_4.jpeg')">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="breadcrumbs"><a href="../index.html">Главная</a><span>/</span><span>Контакты</span></div>
+        <h1 class="page-hero-title">Наши <span>контакты</span></h1>
+        <p class="page-hero-subtitle">Свяжитесь с нами — обсудим ваш проект и предложим решение.</p>
+    </div>
+</section>
+
+<!-- CONTACTS -->
+<section class="page-section">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- Left: info + requisites -->
+            <div>
+                <div class="contact-info-item js-scroll">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" fill="currentColor"/></svg>
+                    </div>
+                    <div>
+                        <div class="contact-item-title">Телефон</div>
+                        <div class="contact-item-value"><a href="tel:+79210922165">+7 921 092-21-65</a></div>
+                    </div>
+                </div>
+
+                <div class="contact-info-item js-scroll">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="2"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                    <div>
+                        <div class="contact-item-title">E-mail</div>
+                        <div class="contact-item-value"><a href="mailto:strsrvs@bk.ru">strsrvs@bk.ru</a></div>
+                    </div>
+                </div>
+
+                <div class="contact-info-item js-scroll">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <div>
+                        <div class="contact-item-title">Юридический адрес</div>
+                        <div class="contact-item-value">198184, г. Санкт-Петербург, о-в Канонерский, д. 24, лит. А, офис 4</div>
+                    </div>
+                </div>
+
+                <div class="contact-info-item js-scroll">
+                    <div class="contact-icon">
+                        <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+                    </div>
+                    <div>
+                        <div class="contact-item-title">Почтовый адрес</div>
+                        <div class="contact-item-value">199155, г. Санкт-Петербург, ул. Уральская, д. 2, стр. 1, помещ. 12-Н</div>
+                    </div>
+                </div>
+
+                <div class="requisites js-scroll">
+                    <h4>Реквизиты</h4>
+                    <div class="requisites-row"><dt>Название</dt><dd>ООО «Стройсервис»</dd></div>
+                    <div class="requisites-row"><dt>ИНН</dt><dd>7811775308</dd></div>
+                    <div class="requisites-row"><dt>ОГРН</dt><dd>1227800059805</dd></div>
+                    <div class="requisites-row"><dt>КПП</dt><dd>780501001</dd></div>
+                </div>
+            </div>
+
+            <!-- Right: form -->
+            <div class="form-card js-scroll">
+                <div class="form-title">Обсудить проект</div>
+                <p class="form-subtitle">Оставьте заявку — мы перезвоним и обсудим все детали вашего проекта.</p>
+
+                <form data-form="main">
+                    <div class="form-group">
+                        <label for="c-name">Ваше имя *</label>
+                        <input class="form-input" type="text" id="c-name" placeholder="Иван Иванов" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-phone">Телефон</label>
+                        <input class="form-input" type="tel" id="c-phone" placeholder="+7 ___ ___-__-__">
+                    </div>
+                    <div class="form-group">
+                        <label for="c-email">E-mail</label>
+                        <input class="form-input" type="email" id="c-email" placeholder="ivan@company.ru">
+                    </div>
+                    <div class="form-group">
+                        <label for="c-msg">Сообщение *</label>
+                        <textarea class="form-textarea" id="c-msg" placeholder="Опишите ваш проект: тип объекта, площадь, сроки..." required></textarea>
+                    </div>
+                    <label class="form-check">
+                        <input type="checkbox" required>
+                        <span>Я согласен на обработку <a href="#">персональных данных</a> и условия <a href="#">пользовательского соглашения</a></span>
+                    </label>
+                    <button type="submit" class="btn btn-primary btn-block" data-submit>Отправить заявку</button>
+                </form>
+
+                <div class="form-success" id="formSuccess">
+                    <div class="check-icon">&check;</div>
+                    <h3>Заявка отправлена!</h3>
+                    <p>Мы свяжемся с вами в ближайшее время.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- MAP -->
+        <div class="map-wrap js-scroll" style="margin-top:60px;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.5!2d30.267386!3d59.949059!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2z59.949059%2C30.267386!5e0!3m2!1sru!2sru!4v1700000000000" allowfullscreen loading="lazy"></iframe>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="../index.html" class="logo footer-logo">
+                    <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+                    <span class="logo-text">Строй<span>сервис</span></span>
+                </a>
+                <p class="footer-desc">Проектно-строительная компания полного цикла.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Разделы</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="objects.html">Наши объекты</a></li>
+                    <li><a href="team.html">Наша команда</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Услуги</h4>
+                <ul class="footer-links">
+                    <li><a href="objects.html">Проектирование</a></li>
+                    <li><a href="objects.html">Строительство</a></li>
+                    <li><a href="objects.html">Реконструкция</a></li>
+                    <li><a href="objects.html">Ж/д инфраструктура</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <div class="footer-contact">
+                    <a href="tel:+79210922165" class="footer-phone">+7 921 092-21-65</a>
+                    <a href="mailto:strsrvs@bk.ru" class="footer-mail">strsrvs@bk.ru</a>
+                    <p class="footer-addr">Санкт-Петербург, Канонерский о-в, д. 24</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; <span id="year"></span> ООО &laquo;Стройсервис&raquo;. ИНН 7811775308</span>
+            <span>Строим надёжно. Строим навсегда.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

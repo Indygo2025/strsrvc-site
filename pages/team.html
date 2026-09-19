@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша команда — Стройсервис</title>
+    <meta name="description" content="Наша команда профессионалов: инженеры, проектировщики, прорабы и сметчики с опытом от 10 лет в строительстве.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="../index.html" class="logo">
+            <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+            <span class="logo-text">Строй<span>сервис</span></span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="../index.html" class="nav-link">Главная</a>
+            <a href="objects.html" class="nav-link">Наши объекты</a>
+            <a href="team.html" class="nav-link active">Наша команда</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </nav>
+        <div class="header-actions">
+            <a href="tel:+79210922165" class="header-phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" fill="currentColor"/></svg>
+                <span>+7 921 092-21-65</span>
+            </a>
+            <a href="contacts.html" class="btn btn-primary">Обсудить проект</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+        <a href="../index.html" class="mobile-link">Главная</a>
+        <a href="objects.html" class="mobile-link">Наши объекты</a>
+        <a href="team.html" class="mobile-link active">Наша команда</a>
+        <a href="contacts.html" class="mobile-link">Контакты</a>
+    </nav>
+    <div class="mobile-bottom">
+        <a href="tel:+79210922165" class="header-phone">+7 921 092-21-65</a>
+        <a href="contacts.html" class="btn btn-primary btn-block">Обсудить проект</a>
+    </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image:url('../img/hero_1.jpeg')">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="breadcrumbs"><a href="../index.html">Главная</a><span>/</span><span>Наша команда</span></div>
+        <h1 class="page-hero-title">Наша <span>команда</span></h1>
+        <p class="page-hero-subtitle">Более 1000 специалистов: инженеры, проектировщики, сметчики, прорабы и рабочие с опытом от 10 лет в строительной отрасли.</p>
+    </div>
+</section>
+
+<!-- TEAM -->
+<section class="page-section">
+    <div class="container">
+        <div class="team-grid">
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">АС</span></div>
+                <div class="team-info">
+                    <div class="team-name">Алексей Сидоров</div>
+                    <div class="team-role">Генеральный директор</div>
+                    <div class="team-experience">Стаж: более 18 лет в управлении строительными проектами. Ответственный за стратегию и развитие компании.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">ВП</span></div>
+                <div class="team-info">
+                    <div class="team-name">Виктор Петров</div>
+                    <div class="team-role">Главный инженер</div>
+                    <div class="team-experience">Стаж: 15 лет. Руководит техническими решениями, контролирует соответствие ГОСТ и СНиП на всех этапах.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">ЕК</span></div>
+                <div class="team-info">
+                    <div class="team-name">Елена Козлова</div>
+                    <div class="team-role">Руководитель ПТО</div>
+                    <div class="team-experience">Стаж: 12 лет. Руководство проектно-техническим офисом, разработка и согласование документации.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">ДМ</span></div>
+                <div class="team-info">
+                    <div class="team-name">Дмитрий Михайлов</div>
+                    <div class="team-role">Начальник производства</div>
+                    <div class="team-experience">Стаж: 14 лет. Координация всех строительно-монтажных работ на площадках по всей России.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">ОШ</span></div>
+                <div class="team-info">
+                    <div class="team-name">Ольга Шевченко</div>
+                    <div class="team-role">Главный сметчик</div>
+                    <div class="team-experience">Стаж: 10 лет. Составление и экспертиза сметной документации, оптимизация бюджетов.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">ИБ</span></div>
+                <div class="team-info">
+                    <div class="team-name">Игорь Белов</div>
+                    <div class="team-role">Прораб</div>
+                    <div class="team-experience">Стаж: 12 лет. Управление строительной площадкой, контроль сроков, качества и безопасности.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">НА</span></div>
+                <div class="team-info">
+                    <div class="team-name">Наталья Афанасьева</div>
+                    <div class="team-role">Руководитель ОТК</div>
+                    <div class="team-experience">Стаж: 11 лет. Многоуровневый контроль качества от входного контроля материалов до приёмки конструкций.</div>
+                </div>
+            </div>
+
+            <div class="team-card js-scroll">
+                <div class="team-photo"><span class="initials">АВ</span></div>
+                <div class="team-info">
+                    <div class="team-name">Андрей Виноградов</div>
+                    <div class="team-role">Проектировщик</div>
+                    <div class="team-experience">Стаж: 13 лет. Разработка проектной документации для промышленных и складских объектов.</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <div class="container cta-inner">
+        <div class="cta-text">
+            <h2 class="cta-title js-scroll">Хотите работать с профессионалами?</h2>
+            <p class="cta-subtitle js-scroll">Наша команда готова реализовать ваш проект. Свяжитесь с нами для подробной консультации.</p>
+        </div>
+        <a href="contacts.html" class="btn btn-light btn-lg js-scroll">Связаться</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="../index.html" class="logo footer-logo">
+                    <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+                    <span class="logo-text">Строй<span>сервис</span></span>
+                </a>
+                <p class="footer-desc">Проектно-строительная компания полного цикла.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Разделы</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="objects.html">Наши объекты</a></li>
+                    <li><a href="team.html">Наша команда</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Услуги</h4>
+                <ul class="footer-links">
+                    <li><a href="objects.html">Проектирование</a></li>
+                    <li><a href="objects.html">Строительство</a></li>
+                    <li><a href="objects.html">Реконструкция</a></li>
+                    <li><a href="objects.html">Ж/д инфраструктура</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <div class="footer-contact">
+                    <a href="tel:+79210922165" class="footer-phone">+7 921 092-21-65</a>
+                    <a href="mailto:strsrvs@bk.ru" class="footer-mail">strsrvs@bk.ru</a>
+                    <p class="footer-addr">Санкт-Петербург, Канонерский о-в, д. 24</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; <span id="year"></span> ООО &laquo;Стройсервис&raquo;. ИНН 7811775308</span>
+            <span>Строим надёжно. Строим навсегда.</span>
+        </div>
+    </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>

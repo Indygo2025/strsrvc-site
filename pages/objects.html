@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши объекты — Стройсервис</title>
+    <meta name="description" content="Портфолио реализованных проектов компании Стройсервис: промышленные объекты, склады, ж/д инфраструктура, реконструкция производств.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<!-- HEADER -->
+<header class="header" id="header">
+    <div class="container header-inner">
+        <a href="../index.html" class="logo">
+            <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+            <span class="logo-text">Строй<span>сервис</span></span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="../index.html" class="nav-link">Главная</a>
+            <a href="objects.html" class="nav-link active">Наши объекты</a>
+            <a href="team.html" class="nav-link">Наша команда</a>
+            <a href="contacts.html" class="nav-link">Контакты</a>
+        </nav>
+        <div class="header-actions">
+            <a href="tel:+79210922165" class="header-phone">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" fill="currentColor"/></svg>
+                <span>+7 921 092-21-65</span>
+            </a>
+            <a href="contacts.html" class="btn btn-primary">Обсудить проект</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+        </div>
+    </div>
+</header>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+    <nav class="mobile-nav">
+        <a href="../index.html" class="mobile-link">Главная</a>
+        <a href="objects.html" class="mobile-link active">Наши объекты</a>
+        <a href="team.html" class="mobile-link">Наша команда</a>
+        <a href="contacts.html" class="mobile-link">Контакты</a>
+    </nav>
+    <div class="mobile-bottom">
+        <a href="tel:+79210922165" class="header-phone">+7 921 092-21-65</a>
+        <a href="contacts.html" class="btn btn-primary btn-block">Обсудить проект</a>
+    </div>
+</div>
+
+<!-- PAGE HERO -->
+<section class="page-hero" style="background-image:url('../img/hero_2.jpeg')">
+    <div class="hero-overlay"></div>
+    <div class="container">
+        <div class="breadcrumbs"><a href="../index.html">Главная</a><span>/</span><span>Наши объекты</span></div>
+        <h1 class="page-hero-title">Наши <span>объекты</span></h1>
+        <p class="page-hero-subtitle">Портфолио реализованных проектов: промышленные и складские комплексы, ж/д инфраструктура, реконструкция производств.</p>
+    </div>
+</section>
+
+<!-- OBJECTS -->
+<section class="page-section">
+    <div class="container">
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">Все проекты</button>
+            <button class="filter-btn" data-filter="prom">Промышленные</button>
+            <button class="filter-btn" data-filter="sklad">Складские</button>
+            <button class="filter-btn" data-filter="zhd">Ж/д инфраструктура</button>
+            <button class="filter-btn" data-filter="recon">Реконструкция</button>
+        </div>
+
+        <div class="gallery-grid" style="grid-auto-rows:340px;">
+            <a href="#" class="object-card js-scroll" data-category="prom" data-lightbox-src="../img/work_1.jpeg">
+                <img src="../img/work_1.jpeg" alt="Промышленный комплекс">
+                <div class="object-tag">Промышленный</div>
+                <div class="gallery-overlay"><span>Промышленный комплекс — склад<br>автозапчастей в Буграх</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="sklad" data-lightbox-src="../img/work_2.jpeg">
+                <img src="../img/work_2.jpeg" alt="Складской комплекс">
+                <div class="object-tag">Склад</div>
+                <div class="gallery-overlay"><span>Складской комплекс<br>«Логистик-Плюс»</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="recon" data-lightbox-src="../img/work_3.jpeg">
+                <img src="../img/work_3.jpeg" alt="Реконструкция завода">
+                <div class="object-tag">Реконструкция</div>
+                <div class="gallery-overlay"><span>Реконструкция цеха<br>химического завода</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="prom" data-lightbox-src="../img/work_4.jpeg">
+                <img src="../img/work_4.jpeg" alt="Производственный объект">
+                <div class="object-tag">Промышленный</div>
+                <div class="gallery-overlay"><span>Производственный цех<br>на Южной трассе</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="zhd" data-lightbox-src="../img/work_5.jpeg">
+                <img src="../img/work_5.jpeg" alt="Ж/д инфраструктура">
+                <div class="object-tag">Ж/д</div>
+                <div class="gallery-overlay"><span>Строительство ж/д ветки<br>для логистического терминала</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="sklad" data-lightbox-src="../img/work_6.jpeg">
+                <img src="../img/work_6.jpeg" alt="Склад">
+                <div class="object-tag">Склад</div>
+                <div class="gallery-overlay"><span>Северный логистический<br>складской комплекс</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="recon" data-lightbox-src="../img/work_7.jpeg">
+                <img src="../img/work_7.jpeg" alt="Модернизация">
+                <div class="object-tag">Реконструкция</div>
+                <div class="gallery-overlay"><span>Модернизация<br>промышленного объекта</span></div>
+            </a>
+            <a href="#" class="object-card js-scroll" data-category="prom" data-lightbox-src="../img/work_8.jpeg">
+                <img src="../img/work_8.jpeg" alt="Промышленный объект">
+                <div class="object-tag">Промышленный</div>
+                <div class="gallery-overlay"><span>Производственный цех<br>на Западном полигоне</span></div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- PROCESS -->
+<section class="page-section alt">
+    <div class="container">
+        <div class="section-head" style="flex-direction:column;align-items:flex-start">
+            <span class="section-tag">Как мы работаем</span>
+            <h2 class="section-title js-scroll">Этапы <span class="accent">работ</span></h2>
+        </div>
+        <div class="process-steps">
+            <div class="process-step js-scroll">
+                <h4>Заявка и осмотр</h4>
+                <p>Выезд на объект, замеры, изучение геологии и документов. Составление ТЗ и первичная оценка объёмов.</p>
+            </div>
+            <div class="process-step js-scroll">
+                <h4>Проектирование</h4>
+                <p>Разработка проектной и рабочей документации, согласования, расчёт сметы.</p>
+            </div>
+            <div class="process-step js-scroll">
+                <h4>Строительство</h4>
+                <p>Ведение работ на площадке, поставка материалов, контроль качества, соблюдение сроков.</p>
+            </div>
+            <div class="process-step js-scroll">
+<h4>Сдача объекта</h4>
+<p>Подготовка документации, приёмка, ввод в эксплуатацию, гарантия на все виды работ.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="cta">
+    <div class="container cta-inner">
+        <div class="cta-text">
+            <h2 class="cta-title js-scroll">Планируете строительство?</h2>
+            <p class="cta-subtitle js-scroll">Оставьте заявку — мы посмотрим ваш объект и предложим оптимальное решение.</p>
+        </div>
+        <a href="contacts.html" class="btn btn-light btn-lg js-scroll">Обсудить проект</a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="../index.html" class="logo footer-logo">
+                    <img src="../img/hero_5.png" alt="Стройсервис" class="logo-img">
+                    <span class="logo-text">Строй<span>сервис</span></span>
+                </a>
+                <p class="footer-desc">Проектно-строительная компания полного цикла.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Разделы</h4>
+                <ul class="footer-links">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="objects.html">Наши объекты</a></li>
+                    <li><a href="team.html">Наша команда</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Услуги</h4>
+                <ul class="footer-links">
+                    <li><a href="objects.html">Проектирование</a></li>
+                    <li><a href="objects.html">Строительство</a></li>
+                    <li><a href="objects.html">Реконструкция</a></li>
+                    <li><a href="objects.html">Ж/д инфраструктура</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Контакты</h4>
+                <div class="footer-contact">
+                    <a href="tel:+79210922165" class="footer-phone">+7 921 092-21-65</a>
+                    <a href="mailto:strsrvs@bk.ru" class="footer-mail">strsrvs@bk.ru</a>
+                    <p class="footer-addr">Санкт-Петербург, Канонерский о-в, д. 24</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; <span id="year"></span> ООО &laquo;Стройсервис&raquo;. ИНН 7811775308</span>
+            <span>Строим надёжно. Строим навсегда.</span>
+        </div>
+    </div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lbClose">&times;</button>
+    <button class="lightbox-prev" id="lbPrev">&larr;</button>
+    <button class="lightbox-next" id="lbNext">&rarr;</button>
+    <img src="" alt="Просмотр фото" id="lbImg">
+</div>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
