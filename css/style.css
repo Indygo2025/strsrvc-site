@@ -30,6 +30,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 body {
@@ -1696,6 +1697,9 @@ button {
     .services-grid {
         grid-template-columns: 1fr;
     }
+    .about-media > img {
+        height: 380px;
+    }
     .cond-grid {
         grid-template-columns: 1fr 1fr;
     }
@@ -1737,6 +1741,43 @@ button {
 }
 
 @media (max-width: 520px) {
+    .btn {
+        padding: 13px 18px;
+        font-size: 13px;
+        white-space: normal;
+        text-align: center;
+    }
+    .btn-lg {
+        padding: 14px 20px;
+        font-size: 13px;
+    }
+    .object-card .object-tag {
+        font-size: 10px;
+        padding: 5px 10px;
+    }
+    .requisites-row {
+        gap: 10px;
+    }
+    .requisites-row dd {
+        word-break: break-word;
+        text-align: right;
+    }
+    .contact-item-value {
+        font-size: 16px;
+        word-break: break-word;
+    }
+    .testi-card {
+        padding: 26px 22px;
+    }
+    .testi-text {
+        font-size: 15px;
+    }
+    .object-card {
+        height: 260px;
+    }
+    .gallery-overlay span {
+        font-size: 13px;
+    }
     .stats-grid {
         gap: 20px;
     }
